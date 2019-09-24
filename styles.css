@@ -46,3 +46,17 @@ a:link {
 p {
   padding: 20px;
 }
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.btn{
+    font-size: 18px;
+    color: white;
+    padding: 12px 22px;
+    background-color: #5e4486;
+    border: 2px solid #ffffff;
+
+}
