@@ -59,6 +59,6 @@ p {
   height: 50%;
 }
 /*pricing*/
-.card {
-  color: #5e4486;
+.jumbotron{
+  background-color: #18040D !important;
 }
