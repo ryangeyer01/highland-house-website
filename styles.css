@@ -61,4 +61,5 @@ p {
 /*pricing*/
 .jumbotron{
   background-color: #18040D !important;
+  border-radius: 0 !important;
 }
