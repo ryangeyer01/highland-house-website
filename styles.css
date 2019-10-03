@@ -58,7 +58,14 @@ p {
   width: 50%;
   height: 50%;
 }
+<<<<<<< HEAD
 .btn-group{
 background-color: #18040D !important;
 
+=======
+/*pricing*/
+.jumbotron{
+  background-color: #18040D !important;
+  border-radius: 0 !important;
+>>>>>>> 8813871b1be18a1fa4ff2cc0ce9a18bfbbf9ac15
 }
