@@ -31,8 +31,8 @@ a {
  color: white;
 }
 #wavylines {
-  width: 100%;
-  height: 50%;
+  width: 100% !important;
+  height: 50% !important;
 }
 #linkcolor:link {
   color: white;
@@ -58,7 +58,7 @@ p {
   width: 50%;
   height: 50%;
 }
-/*pricing*/
-.jumbotron{
-  background-color: #18040D !important;
+.btn-group{
+background-color: #18040D !important;
+
 }
