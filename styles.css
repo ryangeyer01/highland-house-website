@@ -31,8 +31,8 @@ a {
  color: white;
 }
 #wavylines {
-  width: 100%;
-  height: 50%;
+  width: 100% !important;
+  height: 50% !important;
 }
 #linkcolor:link {
   color: white;
@@ -58,77 +58,7 @@ p {
   width: 50%;
   height: 50%;
 }
-body {
-       background-color: #CEF6F5;
-       text-decoration: none;
-   }
-   aside {
-       margin-top: 1%;
-       height: 50%;
-   }
-   #content {
-       float: right;
-       width: 80%;
-       background-color: red;
-   }
-   #menu {
-       width: 20%;
-       float: left;
-       background-color: black;
-   }
-   .menu {
-       text-decoration: none;
-       background-color: #000000;
-       font-family: 'Rancho', cursive;
-   }
-   .cl-menu {
-       list-style: none outside none;
-       display: inline-table;
-       position: relative;
-       width: 80%;
-   }
-   .cl-menu li {
-       padding: 5px 1px;
-       text-align: center;
-   }
-   .cl-menu > li:hover {
-       background-color: #303030;
-       background-color: #66819C;
-       color: #FFF;
-       font-weight: bold;
-       text-decoration: none;
-       opacity: 1;
-   }
-   .cl-menu li ul {
-       display: none;
-   }
-   .cl-menu li:hover ul {
-       display: block;
-       opacity: 0.8;
-       background-color: #FFF;
-       margin-top: 4px;
-       margin-left: 200px;
-       font-weight: normal !important;
-   }
-   .cl-menu li ul li {
-       border-bottom: 1px solid #cccccc !important;
-       border-top: none !important;
-       border-left: none !important;
-       border-right: none !important;
-   }
-   .cl-menu li ul li a {
-       color: #green;
-   }
-   .cl-menu li ul li a:hover {
-       color: #5j8548;
-   }
-   .cl-menu ul:after {
-       content: "";
-       clear: both;
-       display: block;
-   }
-   a {
-       text-decoration: none;
-       color: #CEF6F5;
-       font-family: 'Rancho', cursive;
-   }
+.btn-group{
+background-color: #18040D !important;
+
+}
