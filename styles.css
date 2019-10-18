@@ -38,7 +38,6 @@ a {
 }
 a:active {
   color: white;
-  text-decoration: underline;
 }
 a:link {
   color:white;
