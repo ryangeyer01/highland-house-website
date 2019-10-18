@@ -1,5 +1,5 @@
 .headbox {
-  background-color: #EB241E;
+  background-color: #EB241E !important;
   border: solid darkred;
   width: auto;
   padding: 0px;
@@ -17,6 +17,9 @@ a {
   margin-right: 20px;
   color: #FFF;
 }
+a.head {
+  background-color: #EB241E !important;
+}
 #logo {
   width: 100%;
   height: 100%;
@@ -26,7 +29,7 @@ a {
 * {
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
  font-family: 'DM Sans', sans-serif;
- background-color: #18040D;
+ background-color: #18040D !important;
  color: white !important;
 }
 #wavylines {
@@ -70,4 +73,7 @@ background-color: #18040D !important;
 }
 .h3{
 
+}
+.textpadding{
+  margin: 0;
 }
