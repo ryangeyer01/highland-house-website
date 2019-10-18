@@ -27,7 +27,7 @@ a {
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
  font-family: 'DM Sans', sans-serif;
  background-color: #18040D;
- color: white;
+ color: white !important;
 }
 #wavylines {
   width: 100% !important;
@@ -38,7 +38,6 @@ a {
 }
 a:active {
   color: white;
-  text-decoration: underline;
 }
 a:link {
   color:white;
