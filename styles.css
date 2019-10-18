@@ -1,5 +1,5 @@
 .headbox {
-  background-color: #EB241E !important;
+  background-color: #EB241E;
   border: solid darkred;
   width: auto;
   padding: 0px;
@@ -27,7 +27,7 @@ a {
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
  font-family: 'DM Sans', sans-serif;
  background-color: #18040D;
- color: white !important;
+ color: white;
 }
 #wavylines {
   width: 100% !important;
@@ -65,4 +65,10 @@ background-color: #18040D !important;
 .jumbotron{
   background-color: #18040D !important;
   border-radius: 0 !important;
+}
+.html{
+  background-color: black !important
+}
+.h3{
+
 }
