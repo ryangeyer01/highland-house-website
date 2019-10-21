@@ -75,5 +75,9 @@ background-color: #18040D !important;
 
 }
 .textpadding{
-  margin: 0;
+  margin: 0;}
+
+.btn, .btn-primary, .btn-lg{
+background-color: #EB241E !important;
+border: darkred !important;
 }
