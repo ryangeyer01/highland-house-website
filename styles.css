@@ -82,5 +82,6 @@ background-color: #EB241E !important;
 border: darkred !important;
 }
 .track{
-  font-size: 30px
+  font-size: 30px;
+  text-align: center;
 }
