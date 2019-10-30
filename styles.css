@@ -75,7 +75,10 @@ h3{
 font-family: 'DM Sans', sans-serif;
 }
 .textpadding{
-  margin: 0;}
+text-align: center;
+font-size: 4em;
+  margin: 0;
+}
 
 .btn, .btn-primary, .btn-lg{
 background-color: #EB241E !important;
@@ -95,7 +98,7 @@ text-align: center;
   font-size: 2em;
 }
 .playing{
-  font-size:25px;
+  font-size:20px;
 }
 .jumbo_info{
   text-align: center;
