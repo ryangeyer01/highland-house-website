@@ -81,7 +81,11 @@ font-family: 'DM Sans', sans-serif;
 background-color: #EB241E !important;
 border: darkred !important;
 }
+#welcome{
+font-size: 6em;
+text-align: center;
+}
 .track{
-  font-size: 30px;
-  text-align: center;
+font-size: 60px
+text-align: center;
 }
