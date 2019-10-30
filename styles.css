@@ -92,8 +92,14 @@ text-align: center;
   text-align: center;
 }
 .track{
-  font-size: 2em
+  font-size: 2em;
 }
 .playing{
-  font-size: 25px
+  font-size: 25px;
+}
+.jumbo_info{
+  text-align: center;
+}
+.lead{
+  text-align: center;
 }
