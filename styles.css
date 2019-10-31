@@ -91,24 +91,12 @@ text-align: center;
 #about_welcome{
   text-align: center;
 }
-.display-4{
-  text-align: center;
-}
 .track{
   font-size: 2em;
 }
 .playing{
   font-size:20px;
 }
-.jumbo_info{
-  text-align: center;
-}
-.lead{
-  text-align: center;
-}
-.consultation{
-  text-align: center;
-}
-.price{
+.text-center{
   text-align: center;
 }
