@@ -48,7 +48,6 @@ a:link {
 p {
   padding: 20px;
 }
-.carousel-caption{
     top: 50%;
     transform: translateY(-50%);
     text-transform: uppercase;
@@ -75,10 +74,7 @@ h3{
 font-family: 'DM Sans', sans-serif;
 }
 .textpadding{
-text-align: center;
-font-size: 4em;
-  margin: 0;
-}
+  margin: 0;}
 
 .btn, .btn-primary, .btn-lg{
 background-color: #EB241E !important;
@@ -87,28 +83,4 @@ border: darkred !important;
 #welcome{
 font-size: 6em;
 text-align: center;
-}
-#about_welcome{
-  text-align: center;
-}
-.display-4{
-  text-align: center;
-}
-.track{
-  font-size: 2em;
-}
-.playing{
-  font-size:20px;
-}
-.jumbo_info{
-  text-align: center;
-}
-.lead{
-  text-align: center;
-}
-.consultation{
-  text-align: center;
-}
-.price{
-  text-align: center;
 }
