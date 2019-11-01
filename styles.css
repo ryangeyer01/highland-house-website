@@ -100,10 +100,9 @@ text-align: center;
 .text-center{
   text-align: center;
 }
-.rotateimg {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+#about-text {
+  font-size: 1em;
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align: center;
 }
