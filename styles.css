@@ -100,3 +100,9 @@ text-align: center;
 .text-center{
   text-align: center;
 }
+#about-text {
+  font-size: 1em;
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align: center;
+}
