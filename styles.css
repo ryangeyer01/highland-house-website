@@ -118,3 +118,10 @@ text-align: center;
   text-align: center;
   flex-wrap: wrap;
 }
+.thumbnail {
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.block {
+  display: inline-block;
+}
