@@ -135,7 +135,6 @@ text-align: center;
   margin-right: auto;
   margin-top: 75px;
   padding-top: 5px;
-  text-align: center;
   font-size: 1.3em;
   font-weight: bold;
 }
@@ -152,4 +151,9 @@ text-align: center;
   text-align: center;
   font-size: 1.3em;
   font-weight: bold;
+}
+.footer-text{
+background-color: #EB241E !important;
+text-align: left;
+color:  #0d0d0d !important;
 }
