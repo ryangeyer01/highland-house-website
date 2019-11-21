@@ -65,7 +65,7 @@ background-color: #18040D !important;
 
 }
 .jumbotron{
-  background-color: #18040D !important;
+  background-color: #18040D;
   border-radius: 0 !important;
 }
 .html{
@@ -81,8 +81,8 @@ font-size: 4em;
 }
 
 .btn, .btn-primary, .btn-lg{
-background-color: #EB241E !important;
-border: darkred !important;
+background-color: #EB241E;
+border: darkred;
 }
 #welcome{
 font-size: 6em;
