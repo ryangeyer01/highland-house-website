@@ -24,6 +24,7 @@ function queueAudio() {
   }
   audioPreload.id = 'playbar';
 }
+
 function newSong() {
   if (preloaded) {
     var parentEl = audio.parentNode;
@@ -48,7 +49,7 @@ function audioUpdate() {
   var duration = parseInt(audio.duration),
     currentTime = parseInt(audio.currentTime),
     timeLeft = duration - currentTime;
-    progress = (audio.currentTime + 1) / duration;
+  progress = (audio.currentTime + 1) / duration;
   if (timeLeft <= 10 && !preloaded) {
     preloaded = true;
     queueAudio();
