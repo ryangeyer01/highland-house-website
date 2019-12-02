@@ -1,4 +1,8 @@
-.headbox {
+.html {
+  background-color: black;
+}
+/*Gotit*/
+ .headbox {
   background-color: #EB241E !important;
   border: solid darkred;
   width: auto;
@@ -12,6 +16,20 @@
   font-weight: bold;
 }
 /*gotit*/
+#wavylines {
+  width: 100% !important;
+  height: 50% !important;
+}
+/*gotit*/
+#linkcolor:link {
+  color: white;
+}
+#logo {
+  width: 100%;
+  height: 100%;
+  /*display: block;
+  margin: 0 auto;*/
+}
 a {
   border: none;
   margin-left: 20px;
@@ -19,16 +37,12 @@ a {
   color: #FFF;
 }
 /*gotit*/
+
 a.head {
   background-color: #EB241E !important;
 }
 /*gotit*/
-#logo {
-  width: 100%;
-  height: 100%;
-  /*display: block;
-  margin: 0 auto;*/
-}
+
 /*gotit*/
 * {
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
@@ -37,13 +51,7 @@ a.head {
   color: white !important;
 }
 
-#wavylines {
-  width: 100% !important;
-  height: 50% !important;
-}
-/*gotit*/
-#linkcolor:link {
-  color: white;
+
 }
 /*gotit*/
 a:active {
@@ -53,6 +61,14 @@ a:active {
 a:link {
   color: white;
 }
+#welcome {
+  font-size: 6em;
+  text-align: center;
+}
+/*gotit*/
+#about_welcome {
+  text-align: center;
+} 0
 /*gotit*/
 p {
   padding: 20px;
@@ -81,10 +97,7 @@ p {
   border-radius: 0 !important;
 }
 
-.html {
-  background-color: black;
-}
-/*Gotit*/
+
 h3 {
   font-family: 'DM Sans', sans-serif;
 }
@@ -100,14 +113,7 @@ h3 {
   border: darkred;
 }
 
-#welcome {
-  font-size: 6em;
-  text-align: center;
-}
-/*gotit*/
-#about_welcome {
-  text-align: center;
-}
+
 
 .track {
   font-size: 2em;
