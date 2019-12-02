@@ -189,11 +189,14 @@ h3 {
   background-color: darkred !important;
 }
 @media only screen and (max-width: 375px) {
-  body {
+
+  body{
+
     background-color: #EB241E;
   }
 }
 @media only screen and (max-width: 1024px) {
+
   body {
     background-color: #EB241E;
   }
