@@ -35,13 +35,9 @@ a {
   margin-right: 20px;
   color: #FFF;
 }
-
-
 a.head {
   background-color: #EB241E !important;
 }
-
-
 * {
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
   font-family: 'DM Sans', sans-serif;
