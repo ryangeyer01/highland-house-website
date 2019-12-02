@@ -1,7 +1,7 @@
 .html {
   background-color: black;
 }
-/*Gotit*/
+
  .headbox {
   background-color: #EB241E !important;
   border: solid darkred;
@@ -15,20 +15,19 @@
   font-size: 1.3em;
   font-weight: bold;
 }
-/*gotit*/
+
 #wavylines {
   width: 100% !important;
   height: 50% !important;
 }
-/*gotit*/
+
 #linkcolor:link {
   color: white;
 }
 #logo {
   width: 100%;
   height: 100%;
-  /*display: block;
-  margin: 0 auto;*/
+
 }
 a {
   border: none;
@@ -36,14 +35,13 @@ a {
   margin-right: 20px;
   color: #FFF;
 }
-/*gotit*/
+
 
 a.head {
   background-color: #EB241E !important;
 }
-/*gotit*/
 
-/*gotit*/
+
 * {
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
   font-family: 'DM Sans', sans-serif;
@@ -53,11 +51,11 @@ a.head {
 
 
 }
-/*gotit*/
+
 a:active {
   color: white;
 }
-/*gotit*/
+
 a:link {
   color: white;
 }
@@ -65,11 +63,11 @@ a:link {
   font-size: 6em;
   text-align: center;
 }
-/*gotit*/
+
 #about_welcome {
   text-align: center;
 } 0
-/*gotit*/
+
 p {
   padding: 20px;
 }
