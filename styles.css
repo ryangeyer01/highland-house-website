@@ -73,7 +73,9 @@ p {
   transform: translateY(-50%);
   text-transform: uppercase;
 }
-
+.top-space {
+  padding-top: 250px;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -104,11 +106,19 @@ h3 {
 
 .btn{
   background-color: #EB241E !important;
-  border-color:  darkred;
+  border-color:  darkred!important;
   height: 50px!important;
   font-size: 25px !important;
+  border-radius: 10px!important;
 }
-
+.inst-btn{
+  background-color: #EB241E !important;
+  border-color:  darkred!important;
+  border-radius: 10px !important;
+  height: 45px!important;
+  font-size: 20px!important;
+  padding: 5px!important;
+}
 
 
 .track {
@@ -153,36 +163,12 @@ h3 {
 .block {
   display: inline-block;
 }
-
-#footer {
-  background-color: #EB241E !important;
-  border-top: solid darkred;
-  width: auto;
-  height: 112px;
-  padding: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 75px;
-  padding-top: 5px;
-  text-align: center;
-  font-size: 1.3em;
-  font-weight: bold;
+.br-2{
+  height:42px;
+  background-color: darkred!important;
+  padding:0;
+  margin: 0;
 }
-
-.footer-text {
-  background-color: #EB241E !important;
-  text-align: justify;
-  color: white !important;
-  font-size: 16px;
-}
-
-.footer-right {
-  background-color: #EB241E !important;
-  text-align: right;
-  color: white !important;
-  font-size: 16px;
-}
-
 .page-footer {
   background-color: darkred !important;
 }
