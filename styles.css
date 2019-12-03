@@ -107,8 +107,15 @@ h3 {
   border-color:  darkred!important;
   height: 50px!important;
   font-size: 25px !important;
+  border-radius: 10px!important;
 }
-
+.inst-btn{
+  background-color: #EB241E !important;
+  border-color:  darkred!important;
+  border-radius: 10px !important;
+  height: 45px!important;
+  font-size: 23px!important;
+}
 
 
 .track {
