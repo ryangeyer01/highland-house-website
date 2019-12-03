@@ -73,7 +73,9 @@ p {
   transform: translateY(-50%);
   text-transform: uppercase;
 }
-
+.right {
+  align-self: flex-end;
+}
 .center {
   display: block;
   margin-left: auto;
