@@ -83,7 +83,7 @@ p {
 }
 
 .btn-group {
-  background-color: #18040D !important;
+  background-color: #EB241E !important;
 }
 
 .jumbotron {
@@ -102,9 +102,11 @@ h3 {
   margin: 0;
 }
 
-.btn, .btn-primary, .btn-lg {
-  background-color: #EB241E;
-  border: darkred;
+.btn{
+  background-color: #EB241E !important;
+  border-color:  darkred;
+  height: 50px!important;
+  font-size: 25px !important;
 }
 
 
@@ -187,12 +189,13 @@ h3 {
 @media only screen and (max-width: 375px) {
 
   body{
-    background-color: #EB241E;
+
+    background-color: #18040D;
   }
 }
 @media only screen and (max-width: 1024px) {
-  
+
   body {
-    background-color: #EB241E;
+    background-color: #18040D;
   }
 }
