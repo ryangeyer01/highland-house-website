@@ -181,13 +181,372 @@ h3 {
 @media only screen and (max-width: 375px) {
 
   body{
-
     background-color: #18040D;
+  }
+  .html {
+    background-color: black;
+  }
+
+   .headbox {
+    background-color: #EB241E !important;
+    border: solid darkred;
+    width: auto;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  #wavylines {
+    width: 100% !important;
+    height: 50% !important;
+  }
+
+  #linkcolor:link {
+    color: white;
+  }
+  #logo {
+    width: 100%;
+    height: 100%;
+
+  }
+  a {
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFF;
+  }
+  a.head {
+    background-color: #EB241E !important;
+  }
+  * {
+    /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    font-family: 'DM Sans', sans-serif;
+    background-color: #18040D !important;
+    color: white !important;
+  }
+
+
+  }
+
+  a:active {
+    color: white;
+  }
+
+  a:link {
+    color: white;
+  }
+  #welcome {
+    font-size: 6em;
+    text-align: center;
+  }
+
+  #about_welcome {
+    text-align: center;
+  } 0
+
+  p {
+    padding: 20px;
+  }
+
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+  }
+  .top-space {
+    padding-top: 250px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+
+  .btn-group {
+    background-color: #EB241E !important;
+  }
+
+  .jumbotron {
+    background-color: #18040D;
+    border-radius: 0 !important;
+  }
+
+
+  h3 {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .textpadding {
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+  }
+
+  .btn{
+    background-color: #EB241E !important;
+    border-color:  darkred!important;
+    height: 50px!important;
+    font-size: 25px !important;
+    border-radius: 10px!important;
+  }
+  .inst-btn{
+    background-color: #EB241E !important;
+    border-color:  darkred!important;
+    border-radius: 10px !important;
+    height: 45px!important;
+    font-size: 20px!important;
+    padding: 5px!important;
+  }
+
+
+  .track {
+    font-size: 2em;
+  }
+
+  .playing {
+    font-size: 25px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .about-text {
+    font-size: 2em;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: center;
+  }
+
+  #about-head {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  #about-welcome {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .thumbnail {
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .block {
+    display: inline-block;
+  }
+  .br-2{
+    height:42px;
+    background-color: darkred!important;
+    padding:0;
+    margin: 0;
+  }
+  .br-3{
+    height:12px;
+    background-color: darkred!important;
+    padding:0;
+    margin: 0;
+  }
+  .page-footer {
+    background-color: darkred !important;
   }
 }
 @media only screen and (max-width: 1024px) {
 
   body {
     background-color: #18040D;
+  }
+  .html {
+    background-color: black;
+  }
+
+   .headbox {
+    background-color: #EB241E !important;
+    border: solid darkred;
+    width: auto;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  #wavylines {
+    width: 100% !important;
+    height: 50% !important;
+  }
+
+  #linkcolor:link {
+    color: white;
+  }
+  #logo {
+    width: 100%;
+    height: 100%;
+
+  }
+  a {
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFF;
+  }
+  a.head {
+    background-color: #EB241E !important;
+  }
+  * {
+    /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    font-family: 'DM Sans', sans-serif;
+    background-color: #18040D !important;
+    color: white !important;
+  }
+
+
+  }
+
+  a:active {
+    color: white;
+  }
+
+  a:link {
+    color: white;
+  }
+  #welcome {
+    font-size: 6em;
+    text-align: center;
+  }
+
+  #about_welcome {
+    text-align: center;
+  } 0
+
+  p {
+    padding: 20px;
+  }
+
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+  }
+  .top-space {
+    padding-top: 250px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+
+  .btn-group {
+    background-color: #EB241E !important;
+  }
+
+  .jumbotron {
+    background-color: #18040D;
+    border-radius: 0 !important;
+  }
+
+
+  h3 {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .textpadding {
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+  }
+
+  .btn{
+    background-color: #EB241E !important;
+    border-color:  darkred!important;
+    height: 50px!important;
+    font-size: 25px !important;
+    border-radius: 10px!important;
+  }
+  .inst-btn{
+    background-color: #EB241E !important;
+    border-color:  darkred!important;
+    border-radius: 10px !important;
+    height: 45px!important;
+    font-size: 20px!important;
+    padding: 5px!important;
+  }
+
+
+  .track {
+    font-size: 2em;
+  }
+
+  .playing {
+    font-size: 25px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .about-text {
+    font-size: 2em;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: center;
+  }
+
+  #about-head {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  #about-welcome {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .thumbnail {
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .block {
+    display: inline-block;
+  }
+  .br-2{
+    height:42px;
+    background-color: darkred!important;
+    padding:0;
+    margin: 0;
+  }
+  .br-3{
+    height:12px;
+    background-color: darkred!important;
+    padding:0;
+    margin: 0;
+  }
+  .page-footer {
+    background-color: darkred !important;
   }
 }
