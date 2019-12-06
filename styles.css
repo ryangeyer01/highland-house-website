@@ -178,7 +178,7 @@ h3 {
 .page-footer {
   background-color: black;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1024px) {
 
   body{
     background-color: #18040D;
@@ -361,10 +361,10 @@ h3 {
     margin: 0;
   }
   .page-footer {
-    background-color: darkred !important;
+    background-color: black;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 375px) {
 
   body {
     background-color: #18040D;
@@ -387,45 +387,19 @@ h3 {
     font-weight: bold;
   }
 
-  #wavylines {
-    width: 100% !important;
-    height: 50% !important;
-  }
-
-  #linkcolor:link {
-    color: white;
-  }
-  #logo {
-    width: 100%;
-    height: 100%;
-
-  }
   a {
     border: none;
     margin-left: 20px;
     margin-right: 20px;
     color: #FFF;
   }
-  a.head {
-    background-color: #EB241E !important;
-  }
+
   * {
-    /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
     font-family: 'DM Sans', sans-serif;
-    background-color: #18040D !important;
-    color: white !important;
-  }
-
-
-  }
-
-  a:active {
+    background-color: #18040D;
     color: white;
   }
 
-  a:link {
-    color: white;
-  }
   #welcome {
     font-size: 6em;
     text-align: center;
@@ -433,37 +407,12 @@ h3 {
 
   #about_welcome {
     text-align: center;
-  } 0
-
-  p {
-    padding: 20px;
-  }
-
-  .carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
-    text-transform: uppercase;
-  }
-  .top-space {
-    padding-top: 250px;
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
-  }
-
-  .btn-group {
-    background-color: #EB241E !important;
   }
 
   .jumbotron {
     background-color: #18040D;
-    border-radius: 0 !important;
+    border-radius: 0;
   }
-
 
   h3 {
     font-family: 'DM Sans', sans-serif;
@@ -473,22 +422,6 @@ h3 {
     text-align: center;
     font-size: 4em;
     margin: 0;
-  }
-
-  .btn{
-    background-color: #EB241E !important;
-    border-color:  darkred!important;
-    height: 50px!important;
-    font-size: 25px !important;
-    border-radius: 10px!important;
-  }
-  .inst-btn{
-    background-color: #EB241E !important;
-    border-color:  darkred!important;
-    border-radius: 10px !important;
-    height: 45px!important;
-    font-size: 20px!important;
-    padding: 5px!important;
   }
 
 
@@ -536,17 +469,17 @@ h3 {
   }
   .br-2{
     height:42px;
-    background-color: darkred!important;
+    background-color: darkred;
     padding:0;
     margin: 0;
   }
   .br-3{
     height:12px;
-    background-color: darkred!important;
+    background-color: darkred;
     padding:0;
     margin: 0;
   }
   .page-footer {
-    background-color: darkred !important;
+    background-color: black;
+    font-size: 100px;
   }
-}
