@@ -403,13 +403,12 @@ h3 {
 }
 @media only screen and (max-width: 375px) {
 
-  body {
-    background-color: #18040D;
-  }
   .html {
     background-color: black;
   }
-
+  body {
+    background-color: #18040D;
+  }
    .headbox {
     background-color: #EB241E !important;
     border: solid darkred;
@@ -479,6 +478,7 @@ h3 {
     padding-right: 70px;
     padding-left: 70px;
     text-align: center;
+    height: 100px
   }
 
   #about-head {
